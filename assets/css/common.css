@@ -1,0 +1,37 @@
+:root{
+  --font-kr:'SF pro kr';
+  --font-en:'SF pro dp';
+
+
+  --title-h2:19px;
+  --title-h3:48px;
+  --cont-p01:19px;
+  --cont-p02:17px;
+  --cont-p03:21px;
+}
+
+
+
+
+.headline_h2{font-size: var(--title-h2);font-weight: 500;}
+.headline_h3{font-size: var(--title-h3);font-weight: 500;line-height: 1.2;}
+.conttxt_normal{font-size: var(--cont-p01);font-weight: 500;line-height: 1.3;}
+
+
+.innercont {
+  padding: 0 20px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+.blind {
+  /* position: absolute;
+  top: -9999px;
+  left: -9999px; */
+
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(0 0 0 0); /* 클리핑마스크*/
+}
